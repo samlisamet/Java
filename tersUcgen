@@ -1,0 +1,46 @@
+public class tersUcgen {
+    public static void main(String[] args) {
+for(int i = 1; i <= 9; i++)
+        { for(int j = 9; j <= i; j- -)
+System.out.print(j + “ “ );
+    
+} 
+System.out.println( );
+
+        }
+for(int i = 8; i >= 1; i- -)
+        { for(int j = i; j <= 9; j++)
+System.out.print(j + “ “ );
+    
+} 
+System.out.println( );
+
+}}
+
+
+Örnek 4: Java While Döngüsü ile Faktöriyel Hesaplama
+
+import java.util.Scanner;
+ 
+public class JavaOrnekleri {
+  
+    public static void main(String[] args) {
+        Scanner bilgioku = new Scanner(System.in);
+        System.out.print("Bir Sayı Girin:");
+ 
+        int num = bilgioku.nextInt();
+        int sayac=num;
+        long faktoriyel = 1;
+        while(sayac>1)
+        {
+           faktoriyel*=sayac;
+           sayac--;
+        }
+       /*for döngüsüyle yapılsaydı
+ for(int i = 1; i <= num; i++)
+        {
+            faktoriyel *= i;
+        } şeklinde olurdu. */
+        System.out.println(num+ " Sayısının Faktöriyeli =  ", faktoriyel);
+    } 
+}
