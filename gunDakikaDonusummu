@@ -1,0 +1,20 @@
+public class gunDakikaDonusumu{
+
+	public static void main(String[] args) {
+		int gun;
+		gun =Integer.parseInt(JOptionPane.showInputDialog(null,
+			"Gün Sayısını Giriniz:", "Giriş" , 1));
+
+
+		int saat;
+		long dakika;
+		saat = gun * 24;
+		dakika = saat * 60;
+		
+
+
+		JOptionPane.showMessageDialog(null, "saat: " + saat + "ndakika: " + dakika, " SONUÇ: " , JOptionPane.PLAIN_MESSAGE);
+
+		System.exit(0);
+	}
+}
