@@ -1,0 +1,9 @@
+import javax.swing.JOptionPane;
+
+public class input {
+
+	public static void main(String[] args) {
+		JOptionPane.showInputDialog(null, "Adınız: ", "Giriş Başlığı 1", 3);
+		JOptionPane.showInputDialog(null, "Doğum Yeriniz " , "Ankara");
+	}
+}
